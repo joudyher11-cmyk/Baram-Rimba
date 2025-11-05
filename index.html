@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Baram Rimba - Eliksir Alami</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            primary: "#85A352",
+            "background-light": "#F7F5F2",
+            "background-dark": "#2E282A",
+          },
+          fontFamily: {
+            display: ["Playfair Display", "serif"],
+            body: ["Roboto", "sans-serif"],
+          },
+          borderRadius: {
+            DEFAULT: "0.75rem",
+          },
+        },
+      },
+    };
+  </script>
+<style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-stone-800 dark:text-stone-200 antialiased">
+<div class="flex flex-col min-h-screen" id="root">
+<header class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm">
+<div class="container mx-auto px-6 py-4">
+<div class="flex justify-between items-center">
+<a class="text-2xl font-bold font-display text-primary" href="#">Baram Rimba</a>
+<nav class="hidden md:flex space-x-8 items-center">
+<a class="hover:text-primary transition-colors" href="#features">Fitur</a>
+<a class="hover:text-primary transition-colors" href="#how-it-works">Cara Kerja</a>
+<a class="hover:text-primary transition-colors" href="#story">Cerita Kami</a>
+<a class="hover:text-primary transition-colors" href="#contact">Kontak</a>
+</nav>
+<button class="md:hidden">
+<span class="material-icons-outlined">menu</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex-grow">
+<section class="relative py-20 md:py-32 overflow-hidden bg-stone-200 dark:bg-stone-800">
+<div class="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBm0_ocB01OBQ2YB4a86i_-pvqngld5DZNJBMsbGVMguPjOd4USbXktYJmxLu4HD9NRppKK4xissrXloKIkxxKh-H4CCxeD1QyFQG5Zn5C2WulNq9FERz5FhNRNBtOtmVT4grPnzyIVv-9hwtFrxmbaIxi2fU2LWXmMULJieqF2OTkwspnL2gIrF4CAa4BC_auvAe99OJFqdQZ6fmO0OqnCkLqgChd2-iQbzQo_uEDqTpmelTkNv3H34mYIRrv73nKUmf_r-saVmaE');"></div>
+<div class="container mx-auto px-6 relative z-10">
+<div class="flex flex-col md:flex-row items-center gap-12">
+<div class="md:w-1/2 text-center md:text-left">
+<h1 class="font-display text-5xl md:text-7xl font-bold text-stone-900 dark:text-white leading-tight">Rasakan Esensi Hutan.</h1>
+<p class="mt-4 text-lg text-stone-700 dark:text-stone-300 max-w-xl mx-auto md:mx-0">Temukan kembali vitalitas alam dengan Baram Rimba, eliksir abadi yang dibuat dari bahan-bahan termurni hutan hujan kuno.</p>
+<div class="mt-8 flex justify-center md:justify-start gap-4">
+<a class="bg-primary text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-opacity-90 transition-all transform hover:scale-105" href="#">Beli Sekarang</a>
+<a class="bg-white/50 dark:bg-stone-700/50 backdrop-blur-sm text-stone-800 dark:text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-white dark:hover:bg-stone-700 transition-all" href="#features">Pelajari Lebih Lanjut</a>
+</div>
+</div>
+<div class="md:w-1/2 flex justify-center">
+<img alt="Botol Baram Rimba di lingkungan hutan" class="w-64 md:w-80 h-auto rounded-lg shadow-2xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSscvg7BKwTHsV7rEwhx5SPTNUlTRRciBPoU7VUpDB0BBJlUpYAbtfnPJtBp4NdOd2eaNRpJ3MzFsYxfmCpX8nRYSaa6PLl6JM9R6-dvRHdzdVbsT4BjHfhu53FwApordW8oBvkKSDZWCno54v5c1tvev80MHpWGiNP1qvb-oixy0VFeouOSvFgE_kRorogbmfhECpAc9has0mj0FFnGj3-IkGJYWiBCYg7IRe01i9KUYofrjtxO_TXLahfXUkNccU93luMNOGC1Y"/>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 bg-background-light dark:bg-background-dark">
+<div class="container mx-auto px-6">
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-center">
+<div class="p-6 bg-white/50 dark:bg-stone-800/50 rounded-lg">
+<span class="material-icons-outlined text-4xl text-primary">eco</span>
+<h3 class="font-bold text-xl mt-2">100% Alami</h3>
+<p class="text-stone-600 dark:text-stone-400 mt-1">Berasal dari jantung hutan secara berkelanjutan.</p>
+</div>
+<div class="p-6 bg-white/50 dark:bg-stone-800/50 rounded-lg">
+<span class="material-icons-outlined text-4xl text-primary">health_and_safety</span>
+<h3 class="font-bold text-xl mt-2">Meningkatkan Imunitas</h3>
+<p class="text-stone-600 dark:text-stone-400 mt-1">Perkuat pertahanan alami tubuh Anda.</p>
+</div>
+<div class="p-6 bg-white/50 dark:bg-stone-800/50 rounded-lg">
+<span class="material-icons-outlined text-4xl text-primary">energy_savings_leaf</span>
+<h3 class="font-bold text-xl mt-2">Energi Murni</h3>
+<p class="text-stone-600 dark:text-stone-400 mt-1">Peningkatan energi yang bersih dan menyegarkan tanpa efek samping.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20" id="features">
+<div class="container mx-auto px-6">
+<div class="text-center mb-12">
+<h2 class="text-4xl font-display font-bold text-stone-900 dark:text-white">Temukan Kekuatan di Dalamnya</h2>
+<p class="mt-2 text-stone-600 dark:text-stone-400 max-w-2xl mx-auto">Setiap tetes Baram Rimba dikemas dengan kebaikan alam untuk mendukung kesehatan Anda.</p>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="bg-stone-100 dark:bg-stone-800 p-8 rounded-lg shadow-md flex flex-col items-center text-center">
+<div class="bg-primary/20 p-4 rounded-full mb-4">
+<span class="material-icons-outlined text-3xl text-primary">filter_vintage</span>
+</div>
+<h3 class="text-2xl font-bold font-display">Resep Kuno</h3>
+<p class="mt-2 text-stone-600 dark:text-stone-400">Formula turun-temurun yang diwariskan dari generasi ke generasi, disempurnakan untuk dunia modern.</p>
+</div>
+<div class="bg-stone-100 dark:bg-stone-800 p-8 rounded-lg shadow-md flex flex-col items-center text-center">
+<div class="bg-primary/20 p-4 rounded-full mb-4">
+<span class="material-icons-outlined text-3xl text-primary">science</span>
+</div>
+<h3 class="text-2xl font-bold font-display">Kaya Antioksidan</h3>
+<p class="mt-2 text-stone-600 dark:text-stone-400">Lawan stres harian dan lindungi sel-sel Anda dengan antioksidan alami yang kuat.</p>
+</div>
+<div class="bg-stone-100 dark:bg-stone-800 p-8 rounded-lg shadow-md flex flex-col items-center text-center">
+<div class="bg-primary/20 p-4 rounded-full mb-4">
+<span class="material-icons-outlined text-3xl text-primary">spa</span>
+</div>
+<h3 class="text-2xl font-bold font-display">Campuran Harmonis</h3>
+<p class="mt-2 text-stone-600 dark:text-stone-400">Dibuat secara ahli dengan perpaduan unik dari rempah-rempah dan tumbuhan langka untuk rasa yang halus dan bersahaja.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-stone-200 dark:bg-stone-900" id="how-it-works">
+<div class="container mx-auto px-6">
+<div class="text-center mb-12">
+<h2 class="text-4xl font-display font-bold text-stone-900 dark:text-white">Langkah Mudah Menuju Sehat</h2>
+<p class="mt-2 text-stone-600 dark:text-stone-400 max-w-2xl mx-auto">Mengintegrasikan kekuatan hutan ke dalam rutinitas harian Anda sangatlah mudah.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center relative">
+<div class="hidden md:block absolute top-1/2 left-0 w-full h-0.5" style="transform: translateY(-2rem);">
+<svg height="2" width="100%">
+<line class="stroke-current text-primary/40" stroke-dasharray="8 8" stroke-width="2" x1="0" x2="100%" y1="1" y2="1"></line>
+</svg>
+</div>
+<div class="relative flex flex-col items-center">
+<div class="bg-primary text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold z-10">1</div>
+<h3 class="font-bold text-xl mt-4">Tuangkan Segelas</h3>
+<p class="text-stone-600 dark:text-stone-400 mt-2">Mulailah hari Anda dengan porsi kecil, atau nikmati kapan pun Anda membutuhkan dorongan alami.</p>
+</div>
+<div class="relative flex flex-col items-center">
+<div class="bg-primary text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold z-10">2</div>
+<h3 class="font-bold text-xl mt-4">Rasakan Bedanya</h3>
+<p class="text-stone-600 dark:text-stone-400 mt-2">Alami efek lembut namun kuat saat bahan-bahan alami mulai bekerja.</p>
+</div>
+<div class="relative flex flex-col items-center">
+<div class="bg-primary text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold z-10">3</div>
+<h3 class="font-bold text-xl mt-4">Jadikan Ritual</h3>
+<p class="text-stone-600 dark:text-stone-400 mt-2">Konsistensi adalah kunci. Jadikan Baram Rimba bagian berharga dari rutinitas kesehatan harian Anda.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20" id="story">
+<div class="container mx-auto px-6">
+<div class="flex flex-col md:flex-row items-center gap-12 md:gap-16">
+<div class="md:w-1/2">
+<img alt="Pendiri memegang botol Baram Rimba" class="rounded-lg shadow-xl w-full h-auto object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdriknfo8GWxDkHIVskB5R-QAnNFfE2hpDCuu2B3dKb9NfbgUb39iSaoG2TUuCxoTMLJEYL2U9AAJ1VOSySKV81ZGqb2rI58ce9aRBSNcJ8m3BzuJW-29tuR9TWXyoYPojkem47iucnNX_Zgc3-4uqGEIFx5KKSsDs2wbn3G-nHQvYXXV79TC51WaaomyeMuEvw0QcAfRbYvg9FRWo3fDNCwZP-Jp9kyV33Gx0DL7PWocFhykUm8nD43c_GyzJYrPLuVDQ_otDhvE"/>
+</div>
+<div class="md:w-1/2">
+<h2 class="text-4xl font-display font-bold text-stone-900 dark:text-white">Cerita Kami, Akar Kami</h2>
+<p class="mt-4 text-stone-600 dark:text-stone-400">"Semuanya dimulai dari rasa hormat yang mendalam terhadap hutan dan kearifan yang dikandungnya. Keluarga saya telah memanfaatkan kekuatan tumbuhan ini selama beberapa generasi. Dengan Baram Rimba, saya ingin berbagi warisan kesehatan alami ini dengan dunia. Ini lebih dari sekadar minuman; ini adalah hubungan dengan alam, sepotong warisan saya, yang dikemas khusus untuk Anda."</p>
+<p class="mt-4 font-bold text-primary">- Pendiri, Baram Rimba</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-stone-200 dark:bg-stone-900" id="contact">
+<div class="container mx-auto px-6">
+<div class="max-w-3xl mx-auto">
+<div class="text-center mb-12">
+<h2 class="text-4xl font-display font-bold text-stone-900 dark:text-white">Hubungi Kami</h2>
+<p class="mt-2 text-stone-600 dark:text-stone-400">Punya pertanyaan atau ingin menjadi stokis? Kami ingin mendengar dari Anda.</p>
+</div>
+<form class="bg-background-light dark:bg-background-dark p-8 rounded-lg shadow-lg">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label class="block text-sm font-medium text-stone-700 dark:text-stone-300" for="name">Nama</label>
+<input class="mt-1 block w-full rounded border-stone-300 dark:border-stone-600 bg-white/50 dark:bg-stone-800/50 shadow-sm focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-50" id="name" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-stone-700 dark:text-stone-300" for="email">Email</label>
+<input class="mt-1 block w-full rounded border-stone-300 dark:border-stone-600 bg-white/50 dark:bg-stone-800/50 shadow-sm focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-50" id="email" type="email"/>
+</div>
+</div>
+<div class="mt-6">
+<label class="block text-sm font-medium text-stone-700 dark:text-stone-300" for="message">Pesan</label>
+<textarea class="mt-1 block w-full rounded border-stone-300 dark:border-stone-600 bg-white/50 dark:bg-stone-800/50 shadow-sm focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-50" id="message" rows="4"></textarea>
+</div>
+<div class="mt-6 text-right">
+<button class="bg-primary text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-opacity-90 transition-all" type="submit">Kirim Pesan</button>
+</div>
+</form>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-background-dark text-stone-300">
+<div class="container mx-auto px-6 py-8">
+<div class="flex flex-col md:flex-row justify-between items-center">
+<p>© 2024 Baram Rimba. Hak Cipta Dilindungi.</p>
+<div class="flex space-x-4 mt-4 md:mt-0">
+<a class="hover:text-primary transition-colors" href="#">Facebook</a>
+<a class="hover:text-primary transition-colors" href="#">Instagram</a>
+<a class="hover:text-primary transition-colors" href="#">Twitter</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+
+</body></html>
